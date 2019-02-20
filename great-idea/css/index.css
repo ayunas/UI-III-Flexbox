@@ -65,13 +65,23 @@ h1, h2, h3, h4, h5 {
 
 /*------------------------------------------------------------*/
 
+* {
+	box-sizing: border-box;
+}
+
 body {
 	background: ;
 }
 
 .container {
-	border: 5px solid green;
+	
 	width: 876px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.mid-img {
+	width: 815px;
 }
 
 nav {
@@ -98,13 +108,9 @@ header {
 }
 
 .innovation button {
-	width:60px;
+	width:120px;
 	height:30px;
 	text-align:center;
-}
-
-.logo {
-	
 }
 
 .top-main {
@@ -125,3 +131,4 @@ footer {
 	text-align: center;
 	padding-bottom: 20px;
 }
+
