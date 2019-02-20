@@ -70,7 +70,39 @@ body {
 }
 
 .container {
-	border: 1px solid green;
+	border: 5px solid green;
 	width: 876px;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	margin:30px;
+}
+
+header {
+	display:flex;
+	align-items:center;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.innovation {
+	text-align: center;
+}
+
+.innovation h2 {
+	font-size: 75px;
+	text-align: center;
+}
+
+.innovation button {
+	width:60px;
+	height:30px;
+	text-align:center;
+}
+
+.logo {
 	
 }
