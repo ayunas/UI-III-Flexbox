@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5 {
 /*------------------------------------------------------------*/
 
 body {
-	background: lightgrey;
+	background: ;
 }
 
 .container {
@@ -105,4 +105,23 @@ header {
 
 .logo {
 	
+}
+
+.top-main {
+	display:flex;
+}
+
+.bottom-main {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+
+address {
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
 }
