@@ -73,21 +73,41 @@ body {
 	background: ;
 }
 
+p {
+	line-height: 1.2;
+}
 .container {
-	
 	width: 876px;
 	padding: 30px;
 	box-sizing: border-box;
+}
+
+.services-container {
+	width:890px;
+}
+
+.top-services {
+	padding:30px;
 }
 
 .mid-img {
 	width: 815px;
 }
 
+main {
+	display:flex;
+	flex-wrap:wrap;
+	flex:1;
+	justify-content:center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
 nav {
 	display: flex;
 	justify-content: space-around;
 	margin:30px;
+	align-items: center;
 }
 
 header {
@@ -115,6 +135,23 @@ header {
 
 .top-main {
 	display:flex;
+	padding: 20px;
+}
+
+.top-main .features {
+	padding: 20px;
+}
+
+.top-main .about {
+	padding: 20px;
+}
+
+.boxes {
+	border: 1px solid black;
+	background: lightgrey;
+	width: 45%;
+	padding: 20px;
+	margin: 30px 10px 30px 10px;
 }
 
 .bottom-main {
@@ -130,5 +167,14 @@ address {
 footer {
 	text-align: center;
 	padding-bottom: 20px;
+}
+
+.bottom {
+	padding: 30px;
+	display: flex;
+}
+
+.facts {
+	padding: 20px;
 }
 
