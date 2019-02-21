@@ -63,4 +63,118 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Copy and paste your work from yesterday here and start to refactor into flexbox */
+/*------------------------------------------------------------*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: ;
+}
+
+p {
+	line-height: 1.2;
+}
+.container {
+	width: 876px;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+.services-container {
+	width:890px;
+}
+
+.top-services {
+	padding:30px;
+}
+
+.mid-img {
+	width: 815px;
+}
+
+main {
+	display:flex;
+	flex-wrap:wrap;
+	flex:1;
+	justify-content:center;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+}
+
+nav {
+	display: flex;
+	justify-content: space-around;
+	margin:30px;
+	align-items: center;
+}
+
+header {
+	display:flex;
+	align-items:center;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+}
+
+.innovation {
+	text-align: center;
+}
+
+.innovation h2 {
+	font-size: 75px;
+	text-align: center;
+}
+
+.innovation button {
+	width:120px;
+	height:30px;
+	text-align:center;
+}
+
+.top-main {
+	display:flex;
+	padding: 20px;
+}
+
+.top-main .features {
+	padding: 20px;
+}
+
+.top-main .about {
+	padding: 20px;
+}
+
+.boxes {
+	border: 1px solid black;
+	background: lightgrey;
+	width: 45%;
+	padding: 20px;
+	margin: 30px 10px 30px 10px;
+}
+
+.bottom-main {
+	display: flex;
+	border-bottom: 1px solid black;
+	padding: 20px;
+}
+
+address {
+	padding: 20px;
+}
+
+footer {
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+.bottom {
+	padding: 30px;
+	display: flex;
+}
+
+.facts {
+	padding: 20px;
+}
+
